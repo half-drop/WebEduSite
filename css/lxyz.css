@@ -36,7 +36,7 @@ ul {
 width: 725px;
 }
 .articlelist2_tr {
-    background: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/do.jpg);
+    background: url(../img/do.jpg);
     /* background-position: 0px 24px; */
     background-repeat: repeat-x;
 border-bottom-color: rgb(226, 226, 226);
@@ -44,7 +44,7 @@ border-bottom-color: rgb(226, 226, 226);
     border-bottom-style: solid;
 }
 .news_icon_td {
-    background: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/lis.gif);
+    background: url(../img/lis.gif);
     height: 16px;
     background-position: 0 2px;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ border-bottom-color: rgb(226, 226, 226);
     width: 1200px;
    /* margin-top: 3px;*/
     text-align: center;
-    background: url("https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/lxyz_top_bar.gif");
+    background: url("../img/lxyz_top_bar.gif");
 }
 
 .navcon a {
@@ -75,7 +75,7 @@ border-bottom-color: rgb(226, 226, 226);
 }
 
 .navv {
-    background-image: url("https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/top_menuBg.gif");
+    background-image: url("../img/top_menuBg.gif");
     background-repeat: no-repeat;
     list-style: none;
     color: white;
@@ -123,7 +123,7 @@ border-bottom-color: rgb(226, 226, 226);
     padding-top: 15px;
     padding-bottom: 15px;
     color: #fff;
-	background-color: #A90101;
+	background-color: #8cb8e3;
     margin: 10px auto 0;
 }
 
@@ -139,7 +139,7 @@ border-bottom-color: rgb(226, 226, 226);
 .col1left h4 {
     position: relative;
     padding-left: 0;
-    color: #A90101;
+    color: #8cb8e3;
     font-size: 16px;
     background-repeat: repeat-x;
     height: 32px;
@@ -152,7 +152,7 @@ border-bottom-color: rgb(226, 226, 226);
     left: -1px;
     padding-left: 35px;
     line-height: 32px;
-    background: url("img/icon_tit.png")  5px center;
+    background: url("../img/icon_tit.png")  5px center;
 }
 
 .col1left .new-list {
@@ -171,7 +171,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 .w6 h4 {
     width: 448px;
-    background-image: url("img/item2-l.gif");
+    background-image: url("../img/item2-l.gif");
     background-repeat: no-repeat;
     font-size: 16px;
     line-height: 30px;
@@ -181,7 +181,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 .news-l h4 {
     width: 700px;
-    background-image: url("img/item3.gif");
+    background-image: url("../img/item3.gif");
     background-repeat: no-repeat;
     font-size: 16px;
     line-height: 30px;
@@ -191,7 +191,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 .nav-left h4 {
     width: 250px;
-    background-image: url("img/item2-s.gif");
+    background-image: url("../img/item2-s.gif");
     background-repeat: no-repeat;
     font-size: 16px;
     line-height: 30px;
@@ -202,10 +202,10 @@ border-bottom-color: rgb(226, 226, 226);
 .ww6 h4 {
     position: relative;
     padding-left: 0;
-    color: #A90101;
+    color: #7da3ca;
      background-repeat: repeat-x;
     height: 32px;
-    border-bottom: 1px solid #A40000;
+    border-bottom: 1px solid #4e667e;
 }
 
 .ww6 .new-list {
@@ -218,7 +218,7 @@ border-bottom-color: rgb(226, 226, 226);
     left: -1px;
     padding-left: 50px;
     line-height: 32px;
-    background: url("img/icon_tit.png") no-repeat 5px center;
+    background: url("../img/icon_tit.png") no-repeat 5px center;
 
 }
 
@@ -239,7 +239,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 .newList-box-title a {
     font-size: 16px;
-    color: #c41111;
+    color: #4e667e;
     text-align: center;
     line-height: 30px;}
 	
@@ -270,7 +270,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 .nav-l-list ul li {
     padding-left: 20px;
-    background-image: url("img/arrow3.gif");
+    background-image: url("../img/arrow3.gif");
     background-position: 3px;
     background-repeat: no-repeat;
     font-size: 16px;
@@ -283,7 +283,7 @@ border-bottom-color: rgb(226, 226, 226);
 }
 
 .news-list li {
-    background: url(img/arrow3.gif) no-repeat 0 4px;
+    background: url(../img/arrow3.gif) no-repeat 0 4px;
     line-height: 2.5;
     overflow: hidden;
     
@@ -295,7 +295,7 @@ border-bottom-color: rgb(226, 226, 226);
 
 
 .w6 .news-list li {
-    background-image: url("img/arrow3.gif");
+    background-image: url("../img/arrow3.gif");
     background-position: 3px;
 	
 }
@@ -370,11 +370,11 @@ border-bottom-color: rgb(226, 226, 226);
 }
 
 .container h4 a:link, .container h4 a:hover, .container h4 a:visited {
-    color: #CD2A2A;
+    color: #213d4c;
 }
 
 .container .col1left h4 a:link, .container h4 a:hover, .container h4 a:visited {
-    color: #CD2A2A;
+    color: #213d4c;
 }
 
 .container .ww6 h4 a:link, .container h4 a:hover, .container h4 a:visited {
@@ -396,7 +396,7 @@ border-bottom-color: rgb(226, 226, 226);
 }
 
 .nav-l-list a:link, .nav-l-list a:hover, .nav-l-list a:visited {
-    color: #c00000;
+    color: #213d4c;
 }
 
 .news-list li a:link, .news-list li a:hover, .news-list li a:visited {
@@ -437,10 +437,10 @@ width: 1200px;
 	background-position: center; width: 7px; height: 50px; bottom: 0; position: absolute; z-index: 8; background-repeat: no-repeat;
 }
 .imgScro .prev {
-	right: 45px; background-image: url("https://www.htu.edu.cn/_upload/tpl/0f/67/3943/images/ico-arrprev2.png");
+	right: 45px; background-image: url("../img/ico-arrprev2.png");
 }
 .imgScro .next {
-	right: 25px; background-image: url("https://www.htu.edu.cn/_upload/tpl/0f/67/3943/images/ico-arrnext2.png");
+	right: 25px; background-image: url("../img/ico-arrnext2.png");
 }
 
 .pul-list li {
@@ -463,7 +463,7 @@ width: 1200px;
 	color: rgb(157, 157, 157); padding-left: 25px; float: right;
 }
 .news-li .title {
-	background: url("https://www.htu.edu.cn/_upload/tpl/0f/67/3943/images/imgp-dot.jpg") no-repeat left; overflow: hidden;  display: block; white-space: nowrap; -ms-text-overflow: ellipsis;float:left;
+	overflow: hidden;  display: block; white-space: nowrap; -ms-text-overflow: ellipsis;float:left;
 }
 
 
@@ -471,7 +471,7 @@ width: 1200px;
 	padding-top: 10px; padding-left: 15px; float: none; display: block;
 }
 .news-li:hover  a{
-	color: rgb(177, 31, 36);
+	color: #213d4c;
 }
 
 
@@ -481,7 +481,7 @@ width: 1200px;
 }
 
 .dtjt10_div_text .dtjt10_div_text_title {
-    background: #c00000;
+    background: #badbfd;
 	color:#fff;
     text-align: center;
 	line-height: 30px;
@@ -489,7 +489,7 @@ width: 1200px;
 
 
 #navigator {
-	background: rgb(177, 9, 44); height: 50px; line-height: 50px; position: relative; z-index: 150;
+	background: #75b8fc; height: 50px; line-height: 50px; position: relative; z-index: 150;
 }
 #navigator ul li {
 	width: 116px; float: left; position: relative;
@@ -498,13 +498,13 @@ width: 1200px;
 	text-align: center; color: rgb(255, 255, 255); font-size: 14px; display: block;
 }
 #navigator ul li a.on {
-	background: rgb(140, 0, 29);
+	background: #75b8fc;
 }
 #navigator ul li a.on:hover {
-	background: rgb(140, 0, 29);
+	background: #75b8fc;
 }
 #navigator ul li a:hover {
-	background: rgb(106, 1, 23); text-decoration: none;
+	background: #badbfd; text-decoration: none;
 }
 #navigator ul li ul {
 	left: 0; top: 45px; width: auto; display: none; position: absolute;
@@ -519,7 +519,7 @@ width: 1200px;
 	background: none; height: 33px; color: rgb(72, 72, 72); line-height: 33px;
 }
 #navigator ul li.current ul li a:hover {
-	background: rgb(249, 249, 249); color: rgb(177, 9, 44);
+	background: #cee6fe; color: #cee6fe;
 }
 
 .xyzt {
@@ -559,8 +559,8 @@ width: 1200px;
     margin-top: 30px;
 }
 .xglj img {
-    width: 212px;
-    height: 70px;
+    width: 220px;
+    height: 80px;
     float: left;
     margin-right: 10px;
 }

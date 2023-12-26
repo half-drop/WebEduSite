@@ -1,0 +1,425 @@
+
+/* Base Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;	font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}
+:focus { outline:0;}
+img { border:0;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+.clear {
+	width:100%;
+	font-size:0;
+	overflow:hidden;
+	clear:both;
+	display:block;
+	_display:inline;
+}
+.none { display:none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+/**布局开始**/
+body {
+	background-image: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/bg.jpg);
+	/**background-color: #FFFFFF;**/
+	background-repeat: repeat-x;
+}
+body,p { font:12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif; color:#333;}
+a { color:#333; text-decoration:none;}
+a:hover { color:#cd0200;}
+.wrapper { width:100%; margin:0 auto;}
+.wrapper .inner { width:1200px; margin:0 auto;} /**页面全局宽度**/
+
+/**标题栏新闻窗口**/
+.post { margin-bottom:10px;}
+.post .tt { height:32px;} /**标题栏**/
+.post .tt .tit {
+	display:inline-block;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#cee6fe;
+}
+
+
+
+
+.post-6 {
+}
+.post-6 .tt {
+	height:58px;
+	float: left;
+	width: 750px;
+	background-color: #cee6fe;
+	padding-top: 40px;
+} /**标题栏**/
+.post-6 .tt .tit {
+	display:inline-block;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#737272;
+	padding-left: 10px;
+} 
+
+
+
+
+
+
+
+
+ /**标题字体**/
+.post .tt .tit .title {
+	display:inline-block;
+	height:32px;
+	line-height:32px;
+	padding-left:0px;
+} /**标题图标**/
+.post .tt .more_btn { display:inline-block; height:32px; line-height:32px; float:right;}   /**更多按钮**/
+.post .con {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+
+.post-6 .con {
+	float: right;
+	width: 250px;
+	background-color: #cee6fe;
+	height: 58px;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+.post .con .wp_article_list .list_item { border-bottom:1px dashed #ccc;} /**新闻列表**/
+.post .con .wp_article_list .list_item .Article_Index { background:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/li.gif) no-repeat center;} /**新闻列表图标**/
+
+/**自定义新闻列表**/
+.news_list {}
+.news_list li.news {
+	line-height:24px;
+} /**标题图标**/
+.news_list li.news span.news_title { float:left;}
+.news_list li.news span.news_meta { float:right; margin-left:2px;}
+.news_list li.news p {clear:both; line-height:20px; color:#787878;}
+.news_list li.news p a { color:#787878;}
+.news_list li.news p a:hover { color:#444; text-decoration:underline;}
+
+
+/**页头开始**/
+#heaer {}
+#header .inner {}
+.head {
+	width:100%;
+	height:455px;
+	position:relative;
+	position:relative;
+	background-image: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/head.jpg);
+}    /**页头部分**/
+.head .sitetitle { position:absolute; left:366px; top:48px; font-size:32px; font-weight:bold; color:#fff;}		/**站点名称**/
+.head .logo{ position:absolute;}
+.navbar {
+	width:100%;
+	height:46px;
+	background-color: #cee6fe;
+}   	/**导航区域背景**/
+
+.fouce{
+	width:100%;
+	height:334px;
+}   	
+
+
+
+
+.navbar .navbox {
+	width:980px;
+	height:46px;
+	margin:0 auto;
+}   /**导航窗口大小及位置**/
+
+/**导航样式：后台绑定时也可以定义配置**/
+.wp_nav .nav-item a{ font-size:16px;}
+.navbar .navbox .wp_nav,.navbar .navbox .nav { height:40px;}  /**导航高度**/
+.navbar .navbox .wp_nav li.nav-item a {
+	font-size:14px;
+	font-weight:normal;
+	color:#FFFFFF;
+}    /**导航字体样式**/
+.navbar .navbox .wp_nav li.nav-item a:hover,.navbar .navbox .wp_nav li.nav-item a.parent{ color:#F90;}   	/**鼠标经过或当前选中时样式**/
+.wp_nav .nav-item a span.item-name{	line-height:40px;}
+.navbar .navbox .wp_nav .sub-nav li.nav-item i.mark { background:#0777b3;}  /**子菜单背景**/
+.navbar .navbox .wp_nav .sub-nav li.nav-item a { font-size:14px; font-weight:normal;}		/**子菜单字体样式**/
+.navbar .navbox .wp_nav .sub-nav li.nav-item a:hover,.navbar .navbox .wp_nav .sub-nav li.nav-item a.parent { background:#1F5E7C; color:#fff;}
+.navbar .navbox .wp_nav .sub-nav li.nav-item a span.item-name { padding:0 10px; height:26px; line-height:26px;}		/**子菜单栏目高度与边距**/
+
+/**主体开始**/
+#navigator {
+margin:0 auto;
+}
+#container .inner {
+	width:1200px;
+	background-color: #FFFFFF;
+	padding: 30px 0;
+}
+
+/**首页三列布局**/
+.mod {}
+.mod1 { width:236px; float:left;} /**左列**/
+.mod1 .ml { width:100%;} 
+.mbox {
+
+}
+.mod2 {
+	width:1000px;
+	float:right;
+	margin-bottom: 30px;
+}
+.mod2 .mc {
+	width:250px;
+	float:left;
+	margin-left: 30px;
+} /**中间**/
+.mod2 .mr {
+	width:400px;
+	float:right;
+	margin-right: 30px;
+	margin-top: 32px;
+} 
+
+
+
+
+
+
+.mod3 {
+	width:1000px;
+	float:right;
+	background-color: #f2f2f2;
+}
+.mod3 .mc {
+	width:293px;
+	float:left;
+	margin-left: 30px;
+} /**中间**/
+.mod3 .mr {
+	width:293px;
+	float:right;
+	margin-right: 30px;
+}
+
+
+.mod4 {
+	width:1000px;
+	float:right;
+}
+.mod4 .mc {
+	width:750px;
+	float:left;
+	background-color: #cee6fe;
+	height: 48px;
+	padding-top: 25px;
+} /**中间**/
+.mod4 .mr {
+	width:250px;
+	float:right;
+	background-color: #cee6fe;
+	height: 48px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+/**右列**/
+
+/**列表页**/
+.col_menu {
+	width:256px;
+	float:left;
+	background-color: #EEEEEE;
+	min-height: 470px;
+} 
+.col_menu .col_menu_head {
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: #999999;
+}   /**位置栏目背景**/
+.col_menu .col_menu_head h3.col_name { font-size:17px; font-weight:bold; color:#fff; }		/**位置栏目字体**/
+.col_menu .col_menu_head h3.col_name .col_name_text {
+	display:block;
+	line-height:21px;
+	padding:5px 5px 5px 30px;
+}  /**栏目名称图标**/
+ /**栏目列表*/
+.col_list .wp_listcolumn { border-top:1px solid #2867A0; border-bottom:1px solid #fff; }
+.col_list .wp_listcolumn .wp_column a { color:#fff; background:#52B4EB url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_1.gif) no-repeat 6px 12px; border-top:1px solid #fff; border-bottom:1px solid #2867A0;} 	/**一级子栏目**/
+.col_list .wp_listcolumn .wp_column a:hover,.col_list .wp_listcolumn .wp_column a.selected { color:#000; background-image:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_1_hover.gif);} 	/**鼠标经过或选中一级子栏目**/
+.col_list .wp_listcolumn .wp_column a.selected span.column-name{ color:#124D83;}
+
+.col_list .wp_listcolumn .wp_subcolumn .wp_column a { color:#454545; background:#e8e8e8 url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_2.gif) no-repeat 16px 11px; border-top:1px solid #fff; border-bottom:1px solid #bbb;} 	/**二级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_column a:hover,.col_list .wp_listcolumn .wp_subcolumn .wp_column a.selected { color:#000; background-image:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_2_hover.gif);} 	/**鼠标经过或选中二级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_column a.selected span.column-name{ color:#124D83;}
+
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a { background:#f2f2f2 url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3.gif) no-repeat 26px 10px; border-top:1px solid #fff; border-bottom:1px solid #ccc;} 	/**三级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a:hover,.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected { color:#000; background-image:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3_hover.gif);} 	/**鼠标经过或选中三级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected span.column-name{ color:#124D83;}
+
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a { background:#f5f5f5 url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3.gif) no-repeat 36px 10px; border-top:1px solid #fff; border-bottom:1px solid #ddd;} 	/**四级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a:hover,.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected { color:#000; background-image:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3_hover.gif);} 	/**鼠标经过或选中四级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected span.column-name{ color:#124D83;}
+
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a { background:#f9f9f9 url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3.gif) no-repeat 46px 10px; border-top:1px solid #fff; border-bottom:1px solid #eee;} 	/**五级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a:hover,.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected { color:#000; background-image:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/icon_column_3_hover.gif);} 	/**鼠标经过或选中五级子栏目**/
+.col_list .wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected span.column-name{ color:#124D83;}
+
+.col_news {
+	width:1200px;
+	margin:0 auto;
+	background-color: #ffffff;
+} /**栏目新闻**/
+.col_news_head {
+	
+	margin: 0 20px;
+	
+}
+.col_metas .col_title {
+	display:inline-block;
+	float:left;
+	height:30px;
+	line-height:30px;
+	background-position: 0px bottom;
+	background-color: #8cb8e3;
+}  /**当前栏目**/
+.col_metas .col_title h2 { display:inline-block; font-size:18px; font-weight:bold; color:#fff; padding:0 50px 0 25px;}   /**当前栏目名称**/
+.col_metas .col_path { display:inline-block; float:right; white-space:nowrap; height:18px; line-height:18px; margin-top:5px;} /**当前位置**/
+
+.col_news_box { padding:10px 0; margin:0 7px;}
+.col_news_list { margin :15px;}
+.col_news_list .wp_article_list .list_item {    height: 40px;     line-height: 40px;}  /**栏目新闻列表**/
+.col_news_list .wp_article_list .list_item .Article_Index { background:url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/li.gif) no-repeat center;}  /**栏目新闻图标序号**/
+.col_news_list .wp_entry,.col_news_list .wp_entry p { line-height:1.6; font-size:14px; color:#333;}
+.col_news_list .wp_entry p { margin-bottom:6px;}
+.col_news_list .wp_entry img { max-width:680px; _width:expression(this.width > 680 ? "680px" : this.width); }   /**列表页文章图片大小限制**/
+
+
+/**文章页**/
+.infobox {
+	margin-top: 0;
+	margin-right: 30px;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+.article {}
+.article h1.arti_title {
+	line-height:26px;
+	font-family: "Microsoft YaHei";
+	padding:5px;
+	text-align:center;
+	font-size:18px;
+	color:#282828;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+} /**文章标题**/
+.article .arti_metas { padding:10px; text-align:center;}
+.article .arti_metas span { margin:0 5px; font-size:12px; color:#787878;} /**文章其他属性**/
+.article .entry {
+	overflow:hidden;
+	margin-top: 0;
+	margin-bottom: 0;
+} /**文章内容**/
+.article .entry .read,.article .entry .read p {color:#333;}  /**阅读字体**/
+.article .entry .read p { line-height:1.7em; font-size:14px;}
+.article .entry .read img { max-width:940px; _width:expression(this.width > 940 ? "940px" : this.width); }   /**文章阅读部分图片大小限制**/
+
+/**页脚开始**/
+#footer {width:100%;}
+#footer .inner {
+	height: 50px;
+	padding-top: 10px;
+}
+#footer .inner p { font-size:14px; line-height:20px; text-align:center;}
+#footer .inner p span { margin:0 3px;}
+
+
+
+#header {
+	width:1200px;
+	background:url("images/banner.jpg") no-repeat center top;
+	height:455px;
+}
+#nav{
+	
+	background-image: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/bg.gif);
+	height: 50px;
+}
+#footer{
+	background-image: none;
+	height: 100%;
+}
+
+
+	
+.addr{
+	color: #999999;
+}
+.tel{
+	color: #999999;
+}
+.email{
+	color: #999999;
+}
+.copyright{
+	color: #999999;
+}
+.support{
+	color: #999999;
+}
+.c22{
+	height: 83px;
+	width: 4px;
+	clear: none;
+	float: left;
+	background-color: #e0e0e0;
+}
+.c23{
+	height: 24px;
+	width: 600px;
+	clear: none;
+	float: right;
+}
+.headbg{
+	background-color: #cee6fe;
+	height: 337px;
+	background-image: url(https://www.htu.edu.cn/_upload/tpl/0f/67/3943/template3943/images/img.jpg);
+}
+
+
+.wp_nav .nav-item a span.item-name {
+	color: #ffffff;
+
+}
+
+
