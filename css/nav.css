@@ -8,6 +8,7 @@
 #wp_nav_w100 .wp_nav * {
     margin: 0;
     padding: 0;
+
 }
 
 #wp_nav_w100 .wp_nav::after {
@@ -60,7 +61,7 @@
 
 #wp_nav_w100 .wp_nav .nav-item a span.item-name {
     display: inline-block;
-    padding: 15px 10px 5px;
+    padding: 15px 10px 13px;
     line-height: 22px;
     cursor: pointer;
 }

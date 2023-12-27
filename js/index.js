@@ -1,9 +1,9 @@
 const imgJsons = [
-    {"src": "../img/main_foot/1.jpg", "url": "../img/main_foot/1.jpg"},
-    {"src": "../img/main_foot/2.jpg", "url": "../img/main_foot/2.jpg"},
-    {"src": "../img/main_foot/3.jpg", "url": "../img/main_foot/3.jpg"},
-    {"src": "../img/main_foot/4.jpg", "url": "../img/main_foot/4.jpg"},
-    {"src": "../img/main_foot/5.jpg", "url": "../img/main_foot/5.jpg"},
+    {"src": "img/main_news/news1.png", "url": "subpages/工作动态/创新互联网技术的未来展望.html"},
+    {"src": "img/main_news/news2.png", "url": "subpages/工作动态/智能家居安全：新时代的挑战与机遇.html"},
+    {"src": "img/main_news/news3.png", "url": "subpages/工作动态/探索人工智能在医疗保健中的应用.html"},
+    {"src": "img/main_news/news4.png", "url": "subpages/工作动态/区块链技术在金融行业的革命性影响"},
+    {"src": "img/main_news/news5.png", "url": "subpages/最新通知/虚拟现实技术在教育领域的应用.html"},
 ];
 let currentIndex = 0;
 let autoSlideTimer;
@@ -130,3 +130,18 @@ document.addEventListener('DOMContentLoaded', function () {
         // 确保这里返回的是一个实际的元素数组
     }
 });
+
+
+
+window.onscroll = function() {myFunction()};
+var navigator = document.getElementById("navigator");
+var sticky = navigator.offsetTop;  // 获取元素当前的位置
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navigator.classList.add("sticky");
+    } else {
+        navigator.classList.remove("sticky");
+    }
+}
+

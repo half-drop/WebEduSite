@@ -351,7 +351,7 @@ margin:0 auto;
 	margin-bottom: 0;
 } /**文章内容**/
 .article .entry .read,.article .entry .read p {color:#333;}  /**阅读字体**/
-.article .entry .read p { line-height:1.7em; font-size:14px;}
+.article .entry .read p { line-height:1.7em; font-size:16px;}
 .article .entry .read img { max-width:940px; _width:expression(this.width > 940 ? "940px" : this.width); }   /**文章阅读部分图片大小限制**/
 
 /**页脚开始**/

@@ -491,6 +491,7 @@ width: 1200px;
 #navigator {
 	background: #75b8fc; height: 50px; line-height: 50px; position: relative; z-index: 150;
 }
+
 #navigator ul li {
 	width: 116px; float: left; position: relative;
 }
@@ -590,4 +591,8 @@ span.news_meta {
 }
 li.news {
     border-bottom: #e2e2e2 1px solid;
+}
+
+.footer span::after {
+    content: "组员：***，***，***";
 }
