@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="../css/main.css">
 
-
+    <script src="../js/pages.js"></script>
     <base target="_blank">
 </head>
 
@@ -139,6 +139,15 @@
                                 </li>
 
                             </ul>
+                        </div>
+                        <div id="pagination">
+                            <span id="pageInfo">第 <span id="currentPage">1</span> 页，共 <span id="totalPages">0</span> 页</span>
+                            <button id="firstPage">第一页</button>
+                            <button id="prevPage">上一页</button>
+                            <button id="nextPage">下一页</button>
+                            <button id="lastPage">最后一页</button>
+                            <span>跳转到第 <input type="number" id="pageInput" min="1" placeholder="页码"> 页</span>
+                            <button id="goPage">跳转</button>
                         </div>
                     </div>
                 </div>

@@ -577,6 +577,8 @@ li.news {
     content: "组员：***，***，***";
 }
 
+
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -602,4 +604,95 @@ li.news {
 
 .dropdown-menu li:hover {
     background-color: #ddd;
+}
+
+.infobox {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.infobox label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.infobox input[type="text"],
+.infobox textarea,
+.infobox select,
+.infobox input[type="file"] {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.infobox input[type="button"],
+.infobox input[type="reset"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.infobox input[type="button"]:hover,
+.infobox input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+#submitMessage {
+    color: green;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.infobox {
+    padding: 30px; /* 增加内边距 */
+}
+
+
+#pagination {
+    text-align: right; /* 右对齐 */
+    margin-top: 20px; /* 顶部间距 */
+    font-family: Arial, sans-serif; /* 现代字体 */
+}
+
+#pagination button {
+    background-color: #007bff; /* 蓝色背景 */
+    border: none; /* 无边框 */
+    color: white; /* 白色文本 */
+    padding: 8px 15px; /* 内边距 */
+    margin: 0 5px; /* 外边距 */
+    border-radius: 4px; /* 边框圆角 */
+    cursor: pointer; /* 鼠标样式 */
+    font-size: 14px; /* 字体大小 */
+}
+
+#pagination button:hover {
+    background-color: #0056b3; /* 悬停时的背景色 */
+}
+
+#pagination input[type="number"] {
+    border: 1px solid #ddd; /* 边框 */
+    padding: 6px 10px; /* 内边距 */
+    border-radius: 4px; /* 边框圆角 */
+    width: 60px; /* 输入框宽度 */
+    margin-top: 6px; /* 增加上边距 */
+}
+
+#pagination span {
+    margin-right: 10px; /* 右侧外边距 */
+    font-size: 14px; /* 字体大小 */
 }

@@ -4,26 +4,67 @@
     <meta charset=utf-8>
     <title>投稿</title>
 
-    <link rel="stylesheet" href="../../css/nav.css">
-    <link rel="stylesheet" href="../../css/switchPic.css">
-    <link rel="stylesheet" href="../../css/simplenews.css">
-    <link rel="stylesheet" href="../../css/navTop.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/switchPic.css">
+    <link rel="stylesheet" href="css/simplenews.css">
+    <link rel="stylesheet" href="css/navTop.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/submit.js"></script>
 
     <base target="_blank">
 </head>
 <body>
 <div class="banner">
-    <div class="wrapper" id="header"><img src="../../img/banner.jpg" alt="" width="100%" height="455"></div>
+    <div class="wrapper" id="header"><img src="img/banner.jpg" alt="" width="100%" height="455"></div>
 </div>
 
 <div class="container">
-
     <div class="wrapper" id="container">
         <div class="inner">
             <div class="col_news">
+                <div class="col_news_head">
+                    <ul class="col_metas clearfix">
+                        <li class="col_title">
+                            <h2>投稿</h2>
+                        </li>
+                        <li class="col_path"><span class="path_name">当前位置：</span><a href="index.html"
+                                                                                        target="_self">首页</a><span
+                                class='possplit'>&nbsp;&nbsp;</span><a href="#" target="_self">投稿页面</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="inner">
+                        <div class="infobox">
+                            <form id="submissionForm">
+                                <label for="category">投稿栏目:</label>
+                                <select id="category" name="category">
+                                    <option value="default">请选择你要投稿的栏目...</option>
+                                    <option value="latest-notices">最新通知</option>
+                                    <option value="grassroots-style">基层风采</option>
+                                    <option value="work-dynamics">工作动态</option>
+                                    <option value="study-materials">学习资料</option>
+                                    <option value="other-related">其他相关</option>
+                                    <option value="website-links">网站链接</option>
+                                </select>
+
+                                <label for="content">作者:</label>
+                                <textarea id="writer" name="writer" rows="1" cols="20"></textarea>
+
+                                <label for="content">投稿内容:</label>
+                                <textarea id="content" name="content" rows="4" cols="50"></textarea>
+
+                                <label for="fileUpload">上传附件:</label>
+                                <input type="file" id="fileUpload" name="fileUpload">
+
+                                <input type="button" value="提交">
+                                <input type="reset" value="重置">
+                            </form>
+                            <p id="submitMessage"></p>
+                        </div>
+
 
             </div>
         </div>
