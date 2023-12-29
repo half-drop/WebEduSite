@@ -145,3 +145,31 @@ function myFunction() {
     }
 }
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    var leftImage = document.getElementById('leftImage');
+    var rightImage = document.getElementById('rightImage');
+    var duration = 1000; // Duration in milliseconds
+    var start = null;
+
+    function animate(timestamp) {
+        if (!start) start = timestamp;
+        var progress = (timestamp - start) / duration;
+
+        if (progress < 1) {
+            leftImage.style.opacity = progress;
+            rightImage.style.opacity = progress;
+            leftImage.style.transform = `translateX(${-50 + 50 * progress}px)`;
+            rightImage.style.transform = `translateX(${50 - 50 * progress}px)`;
+            requestAnimationFrame(animate);
+        } else {
+            leftImage.style.opacity = 1;
+            rightImage.style.opacity = 1;
+            leftImage.style.transform = 'translateX(0px)';
+            rightImage.style.transform = 'translateX(0px)';
+        }
+    }
+
+    requestAnimationFrame(animate);
+});
+
