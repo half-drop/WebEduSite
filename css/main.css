@@ -574,7 +574,7 @@ li.news {
 }
 
 .footer span::after {
-    content: "组员：***，***，***";
+    content: "组员：***，***，***，***，***";
 }
 
 
