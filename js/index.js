@@ -173,3 +173,34 @@ document.addEventListener('DOMContentLoaded', function() {
     requestAnimationFrame(animate);
 });
 
+window.onscroll = function() {
+    scrollFunction();
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    var backToTopButton = document.getElementById("backToTop");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    };
+
+    if (backToTopButton) {
+        backToTopButton.addEventListener("click", function() {
+            smoothScrollToTop();
+        });
+    }
+});
+
+function smoothScrollToTop() {
+    const scrollStep = window.scrollY / 15;
+    if (window.scrollY > 0) {
+        window.scrollBy(0, -scrollStep);
+        requestAnimationFrame(smoothScrollToTop);
+    }
+}
+
+

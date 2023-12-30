@@ -31,3 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         submitMessage.style.color = 'green';
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('submissionDate').valueAsDate = new Date();
+});
